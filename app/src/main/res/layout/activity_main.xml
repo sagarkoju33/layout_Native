@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
@@ -9,11 +8,31 @@
     android:orientation="vertical"
     tools:openDrawer="start">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"
+        android:text="Layout Horizontal"
         android:id="@+id/send1"
-        android:layout_margin="30dp"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout Vertical"
+        android:id="@+id/send2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
         tools:ignore="HardcodedText" />
 </LinearLayout>

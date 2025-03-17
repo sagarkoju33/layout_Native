@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="sagar_koju">Sagar Koju</string>
+    <string name="sagarkoju">SagarKoju</string>
+    <string name="sample_image">Sample Image</string>
+    <string name="card_view">Card View Example</string>
 </resources>

@@ -22,4 +22,13 @@
     <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomElevatedButton" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="shapeAppearance">@style/CustomButtonShape</item>
+    </style>
+
+    <style name="CustomButtonShape">
+        <item name="cornerSize">12dp</item> <!-- Adjust this to control the border radius -->
+    </style>
+
 </resources>

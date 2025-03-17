@@ -33,6 +33,39 @@
         android:id="@+id/send2"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
 
         tools:ignore="HardcodedText" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:id="@+id/send3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Layout"
+        android:id="@+id/send4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        tools:ignore="HardcodedText" />
+
 </LinearLayout>
